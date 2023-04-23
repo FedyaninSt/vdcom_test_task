@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vdcom_test_task/static/css/main.c0c1d646.css",
+    "main.css": "/vdcom_test_task/static/css/main.4845ad28.css",
     "main.js": "/vdcom_test_task/static/js/main.84e6eb6b.js",
     "static/media/passButtonHidden.svg": "/vdcom_test_task/static/media/passButtonHidden.851a05bbc633bd500fa47ae77a0c70ce.svg",
     "static/media/DeleteIcon.svg": "/vdcom_test_task/static/media/DeleteIcon.9c085a4d992d5c942c2b1893e91141d2.svg",
@@ -11,11 +11,11 @@
     "static/media/passButton.svg": "/vdcom_test_task/static/media/passButton.f9dd466b1ce447aab0fa45c8270bb04b.svg",
     "static/media/ExitIcon.svg": "/vdcom_test_task/static/media/ExitIcon.aa82c5a8f5deda52ddbdcc321cbdc892.svg",
     "static/media/SearchIcon.svg": "/vdcom_test_task/static/media/SearchIcon.ff44542753e182221e175e7a23944923.svg",
-    "main.c0c1d646.css.map": "/vdcom_test_task/static/css/main.c0c1d646.css.map",
+    "main.4845ad28.css.map": "/vdcom_test_task/static/css/main.4845ad28.css.map",
     "main.84e6eb6b.js.map": "/vdcom_test_task/static/js/main.84e6eb6b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0c1d646.css",
+    "static/css/main.4845ad28.css",
     "static/js/main.84e6eb6b.js"
   ]
 }
