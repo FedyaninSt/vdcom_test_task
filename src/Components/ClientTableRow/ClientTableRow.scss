@@ -1,0 +1,16 @@
+@import "../../Setting/_import.scss";
+.ClientTableRow{
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 90px;
+  transition: all .5s;
+  &:hover{
+    box-shadow: 0 0 10px 10px var(--colorConcrete);
+  }
+
+  td{
+    text-align: center;
+    @include PoppinsReg(20px, rgba(0, 0, 0, 0.8));
+  }
+}

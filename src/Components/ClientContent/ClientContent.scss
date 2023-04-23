@@ -1,0 +1,24 @@
+@import "../../Setting/_import.scss";
+
+.ClientContent {
+  background: var(--colorPampas);
+  width: 100%;
+  padding: 118px 30px 22px 30px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    @include PoppinsReg(32px, rgba(0, 0, 0, 0.8))
+  }
+
+  &__pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px ;
+  }
+}

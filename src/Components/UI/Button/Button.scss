@@ -1,0 +1,15 @@
+@import "../../../Setting/_import.scss";
+.Button {
+  border-radius: 10px;
+  background-color: var(--colorRonchi);
+  padding: 5px 40px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+  @include PoppinsReg(20px, rgba(255, 255, 255, 0.8));
+  transition: all .3s;
+  &:hover{
+    box-shadow: 0 0 20px 19px rgba(0, 0, 0, 0.1);
+  }
+  &:active{
+    opacity: .5;
+  }
+}

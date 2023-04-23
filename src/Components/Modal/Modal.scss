@@ -1,0 +1,25 @@
+.Modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  display: none;
+  &.active{
+    display: block;
+  }
+  &__container{
+    width: fit-content;
+    height: fit-content;
+    min-width: 400px;
+    padding: 40px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: var(--colorPampas);
+    border-radius: 10px;
+  }
+}

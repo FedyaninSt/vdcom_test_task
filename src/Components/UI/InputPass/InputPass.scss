@@ -1,0 +1,34 @@
+@import "../../../Setting/_import.scss";
+
+.InputPass {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: stretch;
+  width: 100%;
+
+  &__label {
+    @include RobotoCondensed(26px, #000);
+  }
+
+  &__content {
+    position: relative;
+    width: 100%;
+  }
+
+  &__icon {
+    position: absolute;
+    right: 24px;
+    bottom: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  &__input {
+    width: 100%;
+    cursor: pointer;
+    @include RobotoCondensed(24px, #292929);
+    padding: 24px 65px 24px 24px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+  }
+}

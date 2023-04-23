@@ -1,0 +1,28 @@
+@import "../../Setting/_import.scss";
+
+.AddUserList {
+  max-width: 800px;
+
+  &__title {
+    @include RobotoCondensed(30px, rgba(0, 0, 0, 0.8));
+    display: flex;
+    justify-content: center;
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    width: 50%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+
+  &__btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

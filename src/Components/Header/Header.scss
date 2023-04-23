@@ -1,0 +1,32 @@
+@import "../../Setting/_import.scss";
+.Header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: var(--colorWhite);
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  &__container{
+    width: calc(100% - 226px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 56px;
+  }
+  &__user{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  &__name{
+    @include PoppinsReg(22px, rgba(0, 0, 0, 0.8));
+  }
+  &__work{
+    @include TitilliumWeb(13px, rgba(0, 0, 0, 0.7))
+  }
+}
+

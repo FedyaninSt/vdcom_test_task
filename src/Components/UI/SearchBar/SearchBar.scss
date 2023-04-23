@@ -1,0 +1,16 @@
+@import "../../../Setting/_import.scss";
+
+.SearchBar {
+  background-color: var(--colorConcrete);
+  padding: 16px 21px;
+  border-radius: 6px;
+  max-width: 522px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  &__input {
+    margin-left: 12px;
+    width: 100%;
+    @include RobotoCondensed(20px, #000)
+  }
+}

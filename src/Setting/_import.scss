@@ -1,0 +1,36 @@
+@mixin InterReg($fz,$color) {
+  font-family: 'Inter', 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $fz;
+  line-height: 1.5;
+  color: $color;
+}
+
+@mixin PoppinsReg($fz,$color) {
+  font-family: 'Poppins', 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $fz;
+  line-height: 1.5;
+  color: $color;
+}
+
+@mixin RobotoCondensed($fz,$color) {
+  font-family: 'Roboto Condensed', 'sans-serif';
+  font-style: normal;
+  font-weight: 500;
+  font-size: $fz;
+  line-height: 1.5;
+  color: $color;
+}
+
+@mixin TitilliumWeb($fz,$color) {
+  font-family: 'Titillium Web', 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $fz;
+  line-height: 1.5;
+  color: $color;
+}
+

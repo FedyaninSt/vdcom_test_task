@@ -1,0 +1,48 @@
+@import "../../../Setting/_import.scss";
+
+.CheckBox {
+  width: fit-content;
+  &__label {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 10px;
+    padding-left: 40px;
+    @include PoppinsReg(20px, rgba(0, 0, 0, 0.8));
+
+    &:after {
+      content: '';
+      background: var(--colorRonchi);
+      border-radius: 3px;
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      top: 5px;
+      left: 5px;
+      transform: scale(0);
+      transition: transform 0.3s;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border: 0.5px solid #000000;
+      border-radius: 3px;
+      height: 24px;
+      width: 24px;
+    }
+  }
+
+  &__input {
+    display: none;
+  }
+
+  &__input:checked + .CheckBox__label:after {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../../Setting/_import.scss";
+
+.Pagination {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  &__btn {
+    @include TitilliumWeb(20px, #000);
+    width: 21px;
+    transition: all .5s;
+    &.active {
+      background-color: var(--colorRonchi);
+      color: var(--colorWhite);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 21px;
+    }
+    &.arrow{
+      font-weight: bold;
+    }
+  }
+}

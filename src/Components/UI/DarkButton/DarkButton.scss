@@ -1,0 +1,12 @@
+@import "../../../Setting/_import.scss";
+.DarkButton{
+  background-color: #000000;
+  @include PoppinsReg(24px,#FFFFFF);
+  border: none;
+  padding: 13px 47px;
+  cursor: pointer;
+  transition: all .5s;
+  &:hover{
+    box-shadow: 0px 0px 20px 5px #000;
+  }
+}

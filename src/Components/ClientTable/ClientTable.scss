@@ -1,0 +1,20 @@
+@import "../../Setting/_import.scss";
+.ClientTable{
+  width: 100%;
+  border-spacing: 0 12px;
+  &__thead{
+    width: 100%;
+    background: #FFFFFF;
+    position: sticky;
+    top: 95px;
+    z-index: 10;
+    height: 54px;
+    tr{
+      td{
+        text-align: center;
+        @include PoppinsReg(20px, rgba(0, 0, 0, 0.8))
+      }
+    }
+  }
+}
+

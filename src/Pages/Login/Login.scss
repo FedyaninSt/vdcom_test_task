@@ -1,0 +1,17 @@
+@import '../../Setting/_import';
+.Login{
+  max-width: 580px;
+  width: calc(100vw - 50px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__logo{
+    @include InterReg(64px, #000);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  &__description{
+    @include PoppinsReg(36px, rgba(0, 0, 0, 0.9));
+    text-align: center;
+  }
+}
