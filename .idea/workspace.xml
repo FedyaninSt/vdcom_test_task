@@ -5,61 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70dcf8ad-e88f-43f0-ac76-edaf4428c9ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/API/GetUser.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/AddUserList/AddUserList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/AddUserList/AddUserList.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ClientContent/ClientContent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ClientContent/ClientContent.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ClientTable/ClientTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ClientTable/ClientTable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ClientTableRow/ClientTableRow.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ClientTableRow/ClientTableRow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Modal/Modal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Modal/Modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/NavBar/NavBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/NavBar/NavBar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/Button/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/Button/Button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/CheckBox/CheckBox.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/CheckBox/CheckBox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/DarkButton/DarkButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/DarkButton/DarkButton.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/Input/InputText.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/Input/InputText.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/InputPass/InputPass.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/InputPass/InputPass.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/Pagination/Pagination.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/Pagination/Pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/SearchBar/SearchBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UI/SearchBar/SearchBar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/ClientList/ClientList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/ClientList/ClientList.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Login/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Login/Login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/Slice/UserSlice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Routes/Route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Setting/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Setting/_import.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Setting/_palette.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Setting/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/AppRouter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/GetValue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Search.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/SendingForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Login/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Login/Login.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +18,30 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -114,11 +86,22 @@
       <updated>1682105547006</updated>
       <workItem from="1682105550593" duration="15000" />
       <workItem from="1682105666250" duration="150000" />
-      <workItem from="1682105842964" duration="32610000" />
+      <workItem from="1682105842964" duration="33962000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
